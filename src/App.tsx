@@ -3,16 +3,16 @@ import './app.css'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#F5F7FF] flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-[#F5FCFF] flex flex-col items-center justify-center p-4">
       {/* Logo */}
       <div className="mb-8">
-        <span className="text-[#394180] text-4xl font-semibold">atend</span>
+        <span className="text-[#327085] text-4xl font-semibold">atend</span>
       </div>
 
       <div className="max-w-4xl w-full bg-white rounded-2xl shadow-lg overflow-hidden">
         <div className="flex flex-col md:flex-row">
           {/* Illustration Side */}
-          <div className="w-full md:w-1/2 p-8 bg-[#F5F7FF] flex flex-col items-center justify-center">
+          <div className="w-full md:w-1/2 p-8 bg-[#F5FCFF] flex flex-col items-center justify-center">
             <div className="relative w-full max-w-md">
               {/* Decorative Elements */}
               <div className="absolute top-0 left-0 w-8 h-8 bg-[#394180]/10 rounded-full" />
@@ -52,11 +52,6 @@ export default function App() {
                 <div className="w-2 h-2 bg-[#394180] rounded-full" />
                 <span className="text-gray-600">Optimizando el rendimiento</span>
               </div>
-            </div>
-            <div className="mt-8">
-              <p className="text-sm text-gray-500">
-                Tiempo estimado: <span className="font-semibold">2 horas</span>
-              </p>
             </div>
           </div>
         </div>
