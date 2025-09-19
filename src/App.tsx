@@ -15,17 +15,17 @@ export default function App() {
           <div className="w-full md:w-1/2 p-8 bg-[#F5FCFF] flex flex-col items-center justify-center">
             <div className="relative w-full max-w-md">
               {/* Decorative Elements */}
-              <div className="absolute top-0 left-0 w-8 h-8 bg-[#394180]/10 rounded-full" />
-              <div className="absolute top-1/4 right-0 w-6 h-6 bg-[#394180]/10 rounded-full" />
-              <div className="absolute bottom-0 left-1/4 w-4 h-4 bg-[#394180]/10 rounded-full" />
+              <div className="absolute top-0 left-0 w-8 h-8 bg-[#327085]/10 rounded-full" />
+              <div className="absolute top-1/4 right-0 w-6 h-6 bg-[#327085]/10 rounded-full" />
+              <div className="absolute bottom-0 left-1/4 w-4 h-4 bg-[#327085]/10 rounded-full" />
               
               {/* Main Illustration */}
               <div className="relative z-10 aspect-square">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <Cog className="w-24 h-24 text-[#394180] animate-spin-slow" />
+                  <Cog className="w-24 h-24 text-[#327085] animate-spin-slow" />
                 </div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <Clock className="w-16 h-16 text-[#394180]" />
+                  <Clock className="w-16 h-16 text-[#327085]" />
                 </div>
               </div>
             </div>
